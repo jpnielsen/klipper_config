@@ -1,5 +1,12 @@
 Klipper 3D configuration
 
+
+This is a work in progress.
+
+
+
+
+
 Klipper printer.cfg for modified ANET A8 Printer.
 
 Lerdge optical endstops on X,Y,Z and Z1
