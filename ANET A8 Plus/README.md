@@ -9,17 +9,17 @@ This is a work in progress.
 
 Klipper printer.cfg for modified ANET A8 Printer.
 
-''Lerdge optical endstops on X,Y,Z and Z1
-Printed mounts for optical endstops of own design. Not ready for sharing.
-220V 750W printbed heating element glued to underside of stock hotbed.
-FOTEK Solidstate relay for printbed heating element pwm power control.
-Thermal fuses 120C
-Spring steel PEI + magnetic sticker on heated printbed.
-Printed carriage. Thingiverse #######
-non-e3d Titan extruder 2.85 mm filament
-Nema 17 pancake stepper for extruder (12V).
-Adjustable DC-DC buck converter (24V to 12V) powers mcu board#2
-non-e3d Volcano hotend''
+- Lerdge optical endstops on X,Y,Z and Z1
+- Printed mounts for optical endstops of own design. Not ready for sharing.
+- 220V 750W printbed heating element glued to underside of stock hotbed.
+- FOTEK Solidstate relay for printbed heating element pwm power control.
+- Thermal fuses 120C
+- Spring steel PEI + magnetic sticker on heated printbed.
+- Printed carriage. Thingiverse #######
+- non-e3d Titan extruder 2.85 mm filament
+- Nema 17 pancake stepper for extruder (12V).
+- Adjustable DC-DC buck converter (24V to 12V) powers mcu board#2
+- non-e3d Volcano hotend
 
 
 ----------------------------
