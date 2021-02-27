@@ -1,13 +1,9 @@
-Klipper 3D configuration
 
+Klipper printer.cfg for modified ANET A8 Printer.
 
 This is a work in progress.
 
 
-
-
-
-Klipper printer.cfg for modified ANET A8 Printer.
 
 - Lerdge optical endstops on X,Y,Z and Z1
 - Printed mounts for optical endstops of own design. Not ready for sharing.
@@ -26,27 +22,27 @@ Klipper printer.cfg for modified ANET A8 Printer.
 mcu board #1: MKS Robin E3D
 ---------------------------
 
-Stepper X: X (24V)
-Stepper Y: Y (24V)
-Stepper Z: Z (24V)
-Stepper E: Z1 (24V)
+- Stepper X: X (24V)
+- Stepper Y: Y (24V)
+- Stepper Z: Z (24V)
+- Stepper E: Z1 (24V)
 
-Oprtical Endstop X-
-Oprtical Endstop Y-
-Oprtical Endstop Z-
-Oprtical Endstop Z1-
+- Optical Endstop X-
+- Optical Endstop Y-
+- Oprtical Endstop Z-
+- Oprtical Endstop Z1-
 
-
-
-24V fan for extruder heatsink
-24V fan for extruder part cooler
+- 24V fan for extruder heatsink
+- 24V fan for extruder part cooler
 
 ----------------------------
 mcu board #2: ANET v1.7 
 ----------------------------
-Stepper X: Extruder (12V)
-Bed: connects to SSR for 220V 750W printbed heating element
-HE: connects to MOSFET driver board for hotend heating element.
+- Stepper X: Extruder (12V)
+- Bed: connects to SSR for 220V 750W printbed heating element
+- HE: connects to MOSFET driver board for hotend heating element.
+- Thermistor probe hotend
+- Thermistor probe bed heater 
 
 ----------------------------
 Raspberry Pi 3B
