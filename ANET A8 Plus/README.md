@@ -36,9 +36,7 @@ Oprtical Endstop Y-
 Oprtical Endstop Z-
 Oprtical Endstop Z1-
 
-Solid state relay for 220V 750W printbed heating element
 
-3D touch probe
 
 24V fan for extruder heatsink
 24V fan for extruder part cooler
@@ -47,12 +45,13 @@ Solid state relay for 220V 750W printbed heating element
 mcu board #2: ANET v1.7 
 ----------------------------
 Stepper X: Extruder (12V)
-12V fan for extruder stepper
+Bed: connects to SSR for 220V 750W printbed heating element
+HE: connects to MOSFET driver board for hotend heating element.
 
 ----------------------------
 Raspberry Pi 3B
 ----------------------------
-ADXL345
+
 
 
 
