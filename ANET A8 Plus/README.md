@@ -49,15 +49,15 @@ mcu board #2: ANET v1.7
 Flashing mcu board #1: Robin E3 (/dev/ttyUSB0) the cards end up having the same ID - so /dev/serial/by-path/ is used in "printer.cfg"
 ----------------------------
 
-# MKS Robin E3 boards. To use this config, the firmware should be compiled for the STM32F103.
-# When running "make menuconfig", enable "extra low-level configuration setup", select the 20KiB bootloader, and serial (on
-# USART1 PA10/PA9) communication.
+MKS Robin E3 boards. To use this config, the firmware should be compiled for the STM32F103.
+When running "make menuconfig", enable "extra low-level configuration setup", select the 20KiB bootloader, and serial (on
+USART1 PA10/PA9) communication.
 
-# Note that the "make flash" command does not work with MKS Robin
-# boards. After running "make", run the following command:
-#   ./scripts/update_mks_robin.py out/klipper.bin out/Robin_e3.bin
-# Copy the file out/Robin_e3.bin to an SD card and then restart the
-# printer with that SD card.
+Note that the "make flash" command does not work with MKS Robin
+boards. After running "make", run the following command:
+  ./scripts/update_mks_robin.py out/klipper.bin out/Robin_e3.bin
+Copy the file out/Robin_e3.bin to an SD card and then restart the
+printer with that SD card.
 
 ----------------------------
 Flashing mcu board #2: ANET v1.7 
