@@ -45,7 +45,44 @@ mcu board #2: ANET v1.7
 - Thermistor probe bed heater 
 
 ----------------------------
-Raspberry Pi 3B
+Flashing mcu board #2: ANET v1.7 
+----------------------------
+
+avrdude -p atmega1284p -c arduino -b 115200 -P /dev/ttyUSB1 -U out/klipper.elf.hex
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e9705 (probably m1284p)
+avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file "out/klipper.elf.hex"
+avrdude: input file out/klipper.elf.hex auto detected as Intel Hex
+avrdude: writing flash (27940 bytes):
+
+Writing | ################################################## | 100% 3.56s
+
+avrdude: 27940 bytes of flash written
+avrdude: verifying flash memory against out/klipper.elf.hex:
+avrdude: load data flash data from input file out/klipper.elf.hex:
+avrdude: input file out/klipper.elf.hex auto detected as Intel Hex
+avrdude: input file out/klipper.elf.hex contains 27940 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 3.04s
+
+avrdude: verifying ...
+avrdude: 27940 bytes of flash verified
+
+avrdude: safemode: Fuses OK (E:00, H:00, L:00)
+
+avrdude done.  Thank you.
+
+
+----------------------------
+Raspberry Pi 4
 ----------------------------
 
 
